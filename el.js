@@ -27,13 +27,13 @@ function runScript(scriptPath) {
 }
 
 const scripts = [
-  '/ql/scripts/ele1200/elm_2048.js',
-  '/ql/scripts/ele1200/elm_elge.js',
-  '/ql/scripts/ele1200/elm_hctmm',
-  '/ql/scripts/ele1200/elm_cycg.js',
-  '/ql/scripts/ele1200/elm_mst.js',
-  '/ql/scripts/ele1200/elm_lyb.js',
-  '/ql/scripts/ele1200/elm_assest.js'
+  '/ql/scripts/elm_ebe/elm_2048.js',
+  '/ql/scripts/elm_ebe/elm_elge.js',
+  '/ql/scripts/elm_ebe/elm_hctmm',
+  '/ql/scripts/elm_ebe/elm_cycg.js',
+  '/ql/scripts/elm_ebe/elm_mst.js',
+  '/ql/scripts/elm_ebe/elm_lyb.js',
+  '/ql/scripts/elm_ebe/elm_assest.js'
 ];
 
 async function runScripts() {
