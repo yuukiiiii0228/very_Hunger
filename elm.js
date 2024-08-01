@@ -2,6 +2,7 @@
  * cron: 11 8,13,20 * * *
  * 只添加这个定时就可以了 自己修改下面脚本路径就可以自动一键启动全部 
  */
+const $ = new Env('饿了么一键全任务-可自己关了 单独运行');
 const { exec } = require('child_process');
 
 function runScript(scriptPath) {
