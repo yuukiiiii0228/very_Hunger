@@ -1,8 +1,9 @@
 /**
  * cron: 11 8,13,20 * * *
  * 只添加这个定时就可以了 自己修改下面脚本路径就可以自动一键启动全部 
+ *饿了么一键全任务-可自己关了 单独运行
  */
-const $ = new Env('饿了么一键全任务-可自己关了 单独运行');
+
 const { exec } = require('child_process');
 
 function runScript(scriptPath) {
@@ -28,13 +29,13 @@ function runScript(scriptPath) {
 }
 
 const scripts = [
-  '/ql/scripts/elm_ebe/elm_2048.js',
-  '/ql/scripts/elm_ebe/elm_elge.js',
-  '/ql/scripts/elm_ebe/elm_hctmm',
-  '/ql/scripts/elm_ebe/elm_cycg.js',
-  '/ql/scripts/elm_ebe/elm_mst.js',
-  '/ql/scripts/elm_ebe/elm_lyb.js',
-  '/ql/scripts/elm_ebe/elm_assest.js'
+  '/ql/scripts/IGuanggg_elm_ebe/elm_2048.js',
+  '/ql/scripts/IGuanggg_elm_ebe/elm_elge.js',
+  '/ql/scripts/IGuanggg_elm_ebe/elm_hctmm',
+  '/ql/scripts/IGuanggg_elm_ebe/elm_cycg.js',
+  '/ql/scripts/IGuanggg_elm_ebe/elm_mst.js',
+  '/ql/scripts/IGuanggg_elm_ebe/elm_lyb.js',
+  '/ql/scripts/IGuanggg_elm_ebe/elm_assest.js'
 ];
 
 async function runScripts() {
